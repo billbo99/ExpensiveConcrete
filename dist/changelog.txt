@@ -1,0 +1,25 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2020-10-16
+  Changes:
+    - Changed how I capture the rotation action of the concrete to be able to cycle through all the colours.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2020-10-12
+  Changes:
+    - Rotating coloured "plascrete" changes its color to one of the next 3 in the sequence below.   Tile are limited to 4x directions.
+      -  plascrete-red --> plascrete-green
+      -  plascrete-green --> plascrete-blue
+      -  plascrete-blue --> plascrete-orange
+      -  plascrete-orange --> plascrete-yellow
+      -  plascrete-yellow --> plascrete-pink
+      -  plascrete-pink --> plascrete-purple
+      -  plascrete-purple --> plascrete-brown
+      -  plascrete-brown --> plascrete-cyan
+      -  plascrete-cyan --> plascrete-acid
+      -  plascrete-acid --> plascrete-red
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 2020-03-
+  Features:
+    - First release

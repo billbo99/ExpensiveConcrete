@@ -1,0 +1,13 @@
+{
+    "name": "ExpensiveConcrete",
+    "version": "1.0.2",
+    "title": "Expensive Concrete",
+    "author": "billbo99",
+    "contact": "",
+    "homepage": "https://mods.factorio.com/mod/ExpensiveConcrete",
+    "factorio_version": "1.0",
+    "dependencies": [
+        "base"
+    ],
+    "description": "Expensive Concrete, for JD"
+}
