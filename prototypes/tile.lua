@@ -7,9 +7,9 @@ data:extend(
             name = "plascrete",
             needs_correction = false,
             transition_merges_with_tile = "refined-concrete",
-            minable = {hardness = 0.2, mining_time = 0.5, result = "plascrete"},
+            minable = { hardness = 0.2, mining_time = 0.5, result = "plascrete" },
             mined_sound = refined_concrete_entity.mined_sound,
-            collision_mask = {"ground-tile"},
+            collision_mask = { "ground-tile" },
             walking_speed_modifier = refined_concrete_entity.walking_speed_modifier + 0.2,
             layer = refined_concrete_entity.layer,
             decorative_removal_probability = 1,
@@ -31,7 +31,7 @@ data:extend(
                 }
             },
             walking_sound = refined_concrete_entity.walking_sound,
-            map_color = {r = 60, g = 60, b = 60},
+            map_color = { r = 60, g = 60, b = 60 },
             pollution_absorption_per_second = 0,
             vehicle_friction_modifier = refined_concrete_entity.vehicle_friction_modifier + 0.2
         },
@@ -40,9 +40,9 @@ data:extend(
             name = "tefloncrete",
             needs_correction = false,
             -- transition_merges_with_tile = "refined-concrete",
-            minable = {hardness = 0.2, mining_time = 0.5, result = "tefloncrete"},
+            minable = { hardness = 0.2, mining_time = 0.5, result = "tefloncrete" },
             mined_sound = refined_concrete_entity.mined_sound,
-            collision_mask = {"ground-tile"},
+            collision_mask = { "ground-tile" },
             walking_speed_modifier = 2,
             layer = refined_concrete_entity.layer * 2,
             decorative_removal_probability = 1,
@@ -64,7 +64,7 @@ data:extend(
                 }
             },
             walking_sound = refined_concrete_entity.walking_sound,
-            map_color = {r = 0.1, g = 0.1, b = 0.1, a = 0.1},
+            map_color = { r = 0.1, g = 0.1, b = 0.1, a = 0.1 },
             pollution_absorption_per_second = 0,
             vehicle_friction_modifier = 2
         }

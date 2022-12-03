@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2022-12-03
+  Changes:
+    - Updated locale discription to mention pressing R will rotate plascrete colours
+    - Added MAP setting to enable/disable deconstruction of trees/rocks/cliffs above Expensive Concrete
+    - Added STARTUP setting to allow admin to change the amount of Plascrete needed to make Coloured Plascrete
+    - Added the ingame coloured refined concrete so that it can be made,  along with the ability to press R to rotate though the colours
+---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 2020-11-23
   Changes:
