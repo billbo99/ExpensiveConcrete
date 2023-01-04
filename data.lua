@@ -82,5 +82,3 @@ data:extend(
         }
     }
 )
-
-log(serpent.block(data.raw))
